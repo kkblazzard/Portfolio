@@ -1,0 +1,91 @@
+body{
+    background-color:black;
+}
+.background {
+    margin-top:-20px;
+    display:flex;
+    align-items:stretch;
+    background-image: url("../images/Seattle.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display:block;
+    min-height:747px;
+    height:100%;
+    color:#ffff;
+}
+.background2{
+background-color: #000000;
+opacity: 0.6;
+filter: alpha(opacity=60);
+min-height:750px;
+height:100%;
+width: 60%;
+position: absolute;
+display:inline-block;
+
+
+}
+.content{
+    margin-top:2%;
+    width: 60%;
+    height:100%;
+    position: relative;
+    display:inline-block;
+
+}
+
+.info {
+    border-radius: 49%;
+    height: 25px;
+    width: 25px;
+    margin-bottom: 10px;
+}
+.photo {
+    width: 12%;
+    min-width: 20%;
+    border-radius: 49%;
+}
+
+.bio {
+    max-width: 86%;
+    display: inline-block;
+    vertical-align: bottom;
+    text-shadow: 2px 2px black;
+}
+.projects{
+margin-top:5%;
+
+}
+.icon {
+    height: 40px;
+    width: 40px;
+    margin:10px;
+}
+
+.projects h5 {
+    vertical-align: top;
+    display: inline-block;
+    min-width: 20%;
+    max-width: 33%;
+}
+.footer {
+    margin-top: 10%;
+    align-self:flex-end;
+}
+
+.copyright {
+    max-width: 100%;
+}
+
+.project {
+    font-size: 20px;
+}
+
+.projimg {
+    width:40%;
+}
+p{
+    font-size:80%;
+}
